@@ -15,6 +15,6 @@ jobs:
       uses: webitsbr/github-to-ftp@1.0.1
       with:
         server: ftp.visionplusframes.com
-        server-dir: /home/visilqwc/cicd.visionplusframes.com/dilshan/
+        server-dir: /home/
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
