@@ -16,5 +16,5 @@ jobs:
       with:
         server: ftp.visionplusframes.com
         server-dir: /home/visilqwc/cicd.visionplusframes.com/dilshan
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
